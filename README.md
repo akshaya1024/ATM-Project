@@ -2,22 +2,24 @@
 
 📌 Project Overview
 
-The Python Bank ATM System is a console-based application developed using Python. It simulates basic ATM banking operations such as checking account balance, depositing money, withdrawing money, and viewing transaction history.
+The Python Bank ATM System is a console-based banking application developed using Python. It simulates basic ATM operations and allows users to securely access their account through PIN verification.
 
-The project uses JSON file handling to store customer account details and transaction records permanently.
+The application provides essential banking functionalities such as checking account balance, depositing money, withdrawing money, and viewing transaction history.
+
+It uses JSON file handling to store and retrieve customer account information and transaction records.
 
 ✨ Features
 
-- PIN Authentication
-- Limited PIN Login Attempts (3 Attempts)
+- PIN-Based Authentication
+- Limited Login Attempts (3 Attempts)
 - Check Account Balance
 - Deposit Money
 - Withdraw Money
-- Transaction History
+- View Transaction History
 - Insufficient Balance Validation
 - Input Validation
 - Automatic Data Storage Using JSON
-- Save and Retrieve Account Information
+- Persistent Account Information
 
 🛠️ Technologies Used
 
@@ -36,28 +38,33 @@ The project uses JSON file handling to store customer account details and transa
 - Exception Handling
 - JSON Serialization and Deserialization
 - File Handling
+- Modular Programming
 
 📂 Project Structure
 
-Python-ATM-System/
+ATM-Project/
 │
 ├── atm_project.py
-├── atm_data.json
+├── .gitignore
 └── README.md
 
 ⚙️ How to Run the Project
 
-Step 1: Clone the repository.
+Step 1: Clone the Repository
 
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/akshaya1024/ATM-Project.git
 
-Step 2: Open the project folder.
+Step 2: Navigate to the Project Folder
 
-Step 3: Run the Python file.
+cd ATM-Project
+
+Step 3: Run the Python File
 
 python atm_project.py
 
-Step 4: Enter the PIN to access the ATM menu.
+Step 4: Enter the PIN
+
+Enter the account PIN to access the ATM menu.
 
 💳 ATM Menu
 
@@ -69,7 +76,7 @@ Step 4: Enter the PIN to access the ATM menu.
 
 💾 Data Storage
 
-The application uses a JSON file ("atm_data.json") to store:
+The application uses a JSON file named "atm_data.json" to store:
 
 - Customer Name
 - Account PIN
@@ -86,4 +93,4 @@ GitHub: https://github.com/akshaya1024
 
 📌 Note
 
-This is an educational Python project created for learning purposes. It is not intended for real banking transactions. The sample implementation stores account information locally and does not use production-grade security.
+This project is developed for educational purposes to demonstrate Python programming, file handling, and basic banking operations. It is not intended for real-world banking transactions.
